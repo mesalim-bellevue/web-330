@@ -1,2 +1,4 @@
-# web-330
-Bellevue University Web Development - WEB 330
+# WEB 330 Enterprise JavaScript II
+## Contributors
+* Richard Krasso
+* Meher Salim
