@@ -1,0 +1,55 @@
+/*
+  Pragmatic JavaScript
+  Chapter 3
+  Programming Assignment
+
+  Author:   Meher Salim
+  Date:     05/02/2024
+  Filename: styles.css
+*/
+
+/* Add your CSS styles here */
+/* Body styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #a9b0c0;
+  margin: 0;
+  padding: 20px;
+}
+
+/* Header Styles */
+h1{
+  text-align: center;
+  margin: 1em auto;
+  padding: 10px;
+  color: rgb(255, 255, 255);
+  font-size: 3em;
+  border-bottom: #fff double 5px;
+}
+h2{
+  text-align: center;
+  color: rgb(3, 73, 73);
+  margin: 5px 10px;
+}
+
+/* Section styles */
+#hero1, #hero2, #hero3 {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+/* Hero info styles */
+p {
+  margin: auto;
+  padding: 10px 40px;
+  font-weight: bold;
+}
+
+/* Error message styles */
+.error {
+  color: red;
+  font-weight: bold;
+}
