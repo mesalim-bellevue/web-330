@@ -1,0 +1,99 @@
+/*
+  Pragmatic JavaScript
+  Chapter 4
+  Programming Assignment
+
+  Author:   Meher Salim
+  Date:     05/09/2024
+  Filename: styles.css
+*/
+
+/* Add your styles here */
+/* Body */
+body {
+  font-family: Arial, sans-serif;
+  margin: 10%;
+  padding: 0;
+  background-color: #f2f2f2;
+}
+
+/* Form Container */
+.form-container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Page Title */
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+/* Form */
+form {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #0056b3;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #000;
+  transition: 1s ease-in;
+}
+
+.movie-details {
+  display: none;
+  margin-top: 20px;
+}
+
+.movie-details h2 {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.movie-details p {
+  margin: 5px 0;
+}
+
+.movie-details p strong {
+  font-weight: bold;
+}
+
+.movie-details p span {
+  font-style: italic;
+  color: #666;
+}
+
+/* Error Message */
+#error-message {
+  color: red;
+  font-weight: bold;
+  margin-top: 10px;
+}
